@@ -1,0 +1,27 @@
+body{
+    background-color: cornflowerblue;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+.firstline{
+    grid-column: span 2;
+}
+.secondline{
+    grid-column: span 3;
+}
+.thirdline{
+    grid-column: span 6;
+}
+a:link{
+    color: burlywood;
+}
+a:visited{
+    color:blanchedalmond;
+}
+a:hover{
+    text-decoration: none;
+    color:chartreuse
+}
